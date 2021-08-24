@@ -5,15 +5,15 @@
 ## Group Members:
 - Naima Shaikh
 - Anum Anees
-- Hassans
-- sumera
+- Hassan
+- Sumera
 
 ## What does this app do?
 - This app display a number of contacts including their name, email address, age, profile image by pulling the data from an API.
 - Age should be shown with the click of the show age button.
 
 ## Technologies used:
-- React , bootstrap (for coding and implementation on UI)
+- React , Bootstrap (for coding and implementation on UI)
 ## Software needed to run for this app
 - VS Code (as Editor)
 - Browser (as runtime environment)
