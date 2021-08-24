@@ -1,10 +1,21 @@
 import Card from './component/Card.js'
-import './App.css';
-import React ,{Component} from 'react';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+//import React,{useState ,useEffect}  from 'react';
+
+function App(){
+
+  return(
+    <div className='container my-4'>
+    Contact List Application
+    <Card  />
+    </div>
+  )
+}
+export default App;
 
 
-
-const Contacts = [
+/*const Contacts = [
   {
     id: 1,
     name: 'Daryl Otoole',
@@ -25,15 +36,4 @@ const Contacts = [
 
     //avatarURL: 'http://localhost:5001/richard.jpg'
   },
-]
-
-class App extends Component{
-   render(){
-     return(
-       <div>
-       <Card contacts={Contacts}/>
-       </div>
-     )
-   }
-}
-export default App;
+]*/
