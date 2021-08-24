@@ -1,13 +1,13 @@
 import Card from './component/Card.js'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-//import React,{useState ,useEffect}  from 'react';
+
 
 function App(){
 
   return(
-    <div className='container my-4'>
-    Contact List Application
+    <div className='container '>
+  <h1 className='text-center' >  Contact-List Application </h1>
     <Card  />
     </div>
   )
